@@ -130,10 +130,9 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="config\files_cfg.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="libraries\files\files.h" />
+    <ClInclude Include="libraries\parse\misc_parse.h" />
+    <ClInclude Include="libraries\parse\SQL_parse.h" />
     <ClInclude Include="libraries\QOL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
