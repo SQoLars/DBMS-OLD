@@ -22,8 +22,8 @@
     <Filter Include="Source Files\input">
       <UniqueIdentifier>{acd9e48b-7a0d-4c0a-8c13-844a3320f75c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\config">
-      <UniqueIdentifier>{63b70c60-4b87-48dc-88b8-724290d7e76b}</UniqueIdentifier>
+    <Filter Include="Source Files\libraries\parse">
+      <UniqueIdentifier>{713d8814-7654-4557-bea2-2ddab2bb2e81}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -32,16 +32,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="config\files_cfg.txt">
-      <Filter>Source Files\config</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="libraries\QOL.h">
       <Filter>Source Files\libraries</Filter>
     </ClInclude>
     <ClInclude Include="libraries\files\files.h">
       <Filter>Source Files\libraries\files</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\parse\misc_parse.h">
+      <Filter>Source Files\libraries\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\parse\SQL_parse.h">
+      <Filter>Source Files\libraries\parse</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
