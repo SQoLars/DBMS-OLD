@@ -1,6 +1,6 @@
 # SQoLars - SQL DBMS 
 ![alt text](https://github.com/SQoLars/DBMS-OLD/blob/main/banner.png?raw=true)
-	`-> A light sqlite-like database management system.`
+	-> A light sqlite-like database management system.
 ```
     Project realised by students:
         Simion Cristina Florentina
